@@ -3,11 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/gabrielgju/godesdecero/variables"
+	"github.com/gabrielgju/godesdecero/ejercicios"
 )
 
 func main() {
-	estado, texto := variables.ConviertoaTexto(1588)
-	fmt.Println(estado)
+	num, texto := ejercicios.ConvertirString("101")
+
+	fmt.Println(num)
 	fmt.Println(texto)
 }
