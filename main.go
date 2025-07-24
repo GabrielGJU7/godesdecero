@@ -1,14 +1,12 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/gabrielgju/godesdecero/ejercicios"
-)
+import "github.com/gabrielgju/godesdecero/teclado"
 
 func main() {
-	num, texto := ejercicios.ConvertirString("101")
+	/*num, texto := ejercicios.ConvertirString("101")
 
 	fmt.Println(num)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	teclado.IngresoNumero()
 }
