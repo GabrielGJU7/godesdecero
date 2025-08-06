@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/gabrielgju/godesdecero/ejercicios"
-)
+import "github.com/gabrielgju/godesdecero/files"
 
 func main() {
 	/*num, texto := ejercicios.ConvertirString("101")
@@ -14,5 +12,12 @@ func main() {
 
 	//iteraciones.Iterar()
 
-	ejercicios.TablasMultiplicar()
+	//fmt.Println(ejercicios.TablasMultiplicar())
+
+	//files.GrabarTabla()
+
+	//files.SumarTabla()
+
+	files.LeoArchivo()
+
 }
